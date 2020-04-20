@@ -6,7 +6,7 @@
         margin-bottom: 30px;
     }
     
-    .header .header__coulmn--title{
+    .header .header__column--title{
         font-size:24px;
         font-weight: 600;
     }
@@ -17,7 +17,7 @@
         cursor: pointer;
     }
     
-    .header .header__coulmn{
+    .header .header__column{
         display: flex;
         align-items:center;
     }
@@ -28,7 +28,7 @@
     }
 
 
-.header .header__coulmn{
+.header .header__column{
     display: flex;
     align-items:center;
 }

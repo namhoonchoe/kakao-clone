@@ -5,16 +5,21 @@
 }
 
 .friend .friend__avatar{
-    width:50%;
+    width:50px;
     border-radius:38%;
+
 }
 
-.friend .g-chat__avatar{
+.friend__avatar.g-avatar{
     width: 70px;
 }
 
+.friend__avatar.m-avatar{
+    width: 60px;
+}
 
-.friend .friend__coulmn {
+
+.friend .friend__column {
     display: flex;
     align-items: center;
 }
@@ -29,16 +34,31 @@
 }
 
 .friend__content .friend__status,
-.friend__content .friend__bottom-text,
+.friend__content .bottom-text,
 .friend .chat__timestamp {
     opacity: 0.6;
 }
 
-.friend__content .friend__bottom-text{
+.friend__content .bottom-text{
     font-size: 14px;
 }
 
 .friend__content .friend__status,
 .friend .chat__time-stamp{
     font-size: 12px;
+}
+
+.friend__column .now-listening {
+    border: 2px solid #52e084;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.friend__column .now-listening span {
+    opacity: 0.7;
+}
+
+.friend__column .now-listening i {
+    font-size:12px;
 }
